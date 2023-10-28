@@ -2,7 +2,7 @@
         
 @media (max-width: 550px) {
     img{
-        width: 250px;
+        width: 225px;
     }
     .input__box{
         display: flex;
@@ -19,7 +19,7 @@
 body{
     margin: 0;
     background-color: #ebdac9;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-family: 'Short Stack', cursive;
 }
 
