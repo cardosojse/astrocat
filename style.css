@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap'); 
         
 @media (max-width: 550px) {
+    img{
+        width: 200px;
+    }
     .input__box{
         display: flex;
         flex-direction: column;
         width: 80%;
         gap: .5em;
-    }
-    img{
-        max-width: 100%;
     }
 }
 
@@ -19,13 +19,13 @@
 body{
     margin: 0;
     background-color: #ebdac9;
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-family: 'Short Stack', cursive;
 }
 
 .container{
     width: 80%;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .hero{
@@ -35,8 +35,7 @@ body{
 }
 
 img{
-    width: 400px;
-    height: 400px;
+    max-width: 400px;
 }
 
 h1,
@@ -53,6 +52,7 @@ h3{
     text-align: center;
     border-radius: 50px;
     padding: .5em;
+    margin: 2em 0;
 }
 
 h3:hover{
