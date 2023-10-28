@@ -6,11 +6,17 @@ const answerBox = document.querySelector(".answer-box");
 
 
 askBtn.addEventListener("click", () => {
-    let r1 = inputOne.value;
-    let r2 = inputTwo.value;
-    replys.push(r1, r2);
-    let answer = replys[Math.floor(Math.random() * replys.length)];
-    answerBox.innerText = `O gato escolheu: ${answer}.`;
+    let r1 = inputOne.value.trim();
+    let r2 = inputTwo.value.trim();
+    if(r1 && r2 != ''){
+        replys.push(r1, r2);
+        let answer = replys[Math.floor(Math.random() * replys.length)];
+        inputOne.value = '';
+        inputTwo.value = '';
+        answerBox.innerText = `Aroldo escolheu ${answer}.`;
+    }else{
+        alert('Você não digitou nada! Miau >:(')
+    }
 });
 
 if(navigator.userAgent.indexOf('iPhone') > -1 ){
