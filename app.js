@@ -10,5 +10,5 @@ askBtn.addEventListener("click", () => {
     let r2 = inputTwo.value;
     replys.push(r1, r2);
     let answer = replys[Math.floor(Math.random() * replys.length)];
-    answerBox.innerText = answer;
+    answerBox.innerText = `O gato escolheu: ${answer}.`;
 });

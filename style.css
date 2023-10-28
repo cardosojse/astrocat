@@ -7,6 +7,9 @@
         width: 80%;
         gap: .5em;
     }
+    img{
+        max-width: 100%;
+    }
 }
 
 *{
@@ -22,7 +25,7 @@ body{
 
 .container{
     width: 80%;
-    margin: 50px auto 0;
+    margin: 0 auto;
 }
 
 .hero{
