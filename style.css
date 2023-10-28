@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap'); 
+        
+@media (max-width: 550px) {
+    .input__box{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        gap: .5em;
+    }
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #ebdac9;
+    font-size: 1.3rem;
+    font-family: 'Short Stack', cursive;
+}
+
+.container{
+    width: 80%;
+    margin: 50px auto 0;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    width: 400px;
+    height: 400px;
+}
+
+h1,
+span,
+.answer-box{
+    color: #FFF;
+    text-shadow: 2px 2px gray;
+    text-align: center;
+}
+
+h3{
+    color: #FFF;
+    background-color: #FFA07A;
+    text-align: center;
+    border-radius: 50px;
+    padding: .5em;
+}
+
+h3:hover{
+    opacity: .75;
+    cursor: pointer;
+}
+
+input{
+    padding: 1em;
+    border: 2px solid #FFF;
+    border-radius: 2px;
+}
+
+input:focus{
+    outline: none;
+    border: 2px solid #FFA07A;
+}
+
+.input__box span{
+    margin: 0 .5em;
+}
