@@ -2,7 +2,7 @@
         
 @media (max-width: 550px) {
     img{
-        width: 200px;
+        width: 250px;
     }
     .input__box{
         display: flex;
